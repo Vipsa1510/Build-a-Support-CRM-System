@@ -4,7 +4,7 @@ import axios from "axios";
 
 const API = axios.create({
   baseURL:
-    "https://build-a-support-crm-system-2.onrender.com",
+    "https://build-a-support-crm-system-2.onrender.com/api",
 });
 
 export const getTickets = (params) =>
