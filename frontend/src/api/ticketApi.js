@@ -1,10 +1,8 @@
-
-
 import axios from "axios";
 
 const API = axios.create({
   baseURL:
-    "https://build-a-support-crm-system-2.onrender.com/api",
+    "https://build-a-support-crm-system-2.onrender.com/api/tickets",
 });
 
 export const getTickets = (params) =>
@@ -25,9 +23,7 @@ export const updateTicket = (
 export const getNotes = (
   ticketId
 ) =>
-  API.get(
-    `/${ticketId}/notes`
-  );
+  API.get(`/${ticketId}/notes`);
 
 export const addNote = (
   ticketId,
