@@ -1,4 +1,3 @@
-# Build-a-Support-CRM-System
 # Support CRM System
 
 ## Overview
@@ -15,7 +14,6 @@ Support CRM System is a full-stack customer support ticket management applicatio
 * View detailed ticket information
 * Add activity notes and updates
 * Responsive and modern user interface
-* RESTful API architecture
 
 ## Tech Stack
 
@@ -53,18 +51,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-Backend runs at:
-
-```text
-http://localhost:8000
-```
-
-Swagger Documentation:
-
-```text
-http://localhost:8000/docs
-```
-
 ### Frontend Setup
 
 ```bash
@@ -73,12 +59,6 @@ cd frontend
 npm install
 
 npm run dev
-```
-
-Frontend runs at:
-
-```text
-http://localhost:5173
 ```
 
 ## API Endpoints
@@ -104,8 +84,6 @@ http://localhost:5173
 * Configuring and deploying the FastAPI backend
 * Integrating frontend and backend APIs
 * Managing CORS configuration for cross-origin requests
-* Designing a responsive and user-friendly interface
-* Implementing ticket activity tracking through notes and updates
 
 ## Conclusion
 
