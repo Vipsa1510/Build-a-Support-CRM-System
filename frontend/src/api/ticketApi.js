@@ -4,7 +4,7 @@ import axios from "axios";
 
 const API = axios.create({
   baseURL:
-    "http://127.0.0.1:8010/api/tickets",
+    "https://build-a-support-crm-system-2.onrender.com",
 });
 
 export const getTickets = (params) =>
